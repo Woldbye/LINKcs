@@ -1,0 +1,75 @@
+[Settings]
+TournamentName=Haraldsgade
+Type=0
+CurrSwissRound=0
+Rounds=1
+CurrentPair=1
+CurrentRound=1
+Level=2 2\0/6#0
+[Options]
+QuitAfterTournament=0
+ShutDownAfterTournament=0
+RestartEngines=0
+RepeatStartPosition=1
+Startposition=0
+Variant=0
+StartPGNEPD=C:\Users\Romild\Documents\VICEcs\Tester ga.pgn
+Resign=1
+ResignValue=-900
+MaxGameLength=250
+EarlyDrawFromMove=9998
+TablebaseDraw=0
+Autoflag=1
+Ponder=0
+AutoRotateInGautlet=1
+RutschSystem=0
+RestartArenaAfterGamesValue=20
+RestartArenaAtHour1=0
+RestartArenaAtHourValue=2
+ShutdownComputerAfterGames1=0
+ShutdownComputerAfterGamesValue=10
+[Save]
+SaveGamesPGN=1
+SaveIncompleteGamesPGN=1
+PGNFile=C:\Users\Romild\Downloads\arena_3.5.1\Arena.pgn
+Protocolfile=Logfile001.log
+TurTabTextfile=C:\Users\Romild\Downloads\arena_3.5.1\Tournaments\Arena.txt
+TurTabHTMLfile=C:\Users\Romild\Downloads\arena_3.5.1\Tournaments\Arena.html
+SaveTurTabText=1
+SaveTurTabHTML=1
+HTMLuseCountry=0
+HTMLuseFlags=0
+HTMLuseEnglish=0
+HTMLshortResults=0
+HTMLonlyPoints=0
+HTMLFlagsFromWebsite=0
+HTMLshowPGNfilename=1
+HTMLshowBenchmark=0
+PGNwebsite=
+HTMLWinPercent=0
+HTMLStartELO=0
+HTMLShowConditions=0
+HTMLConditions=
+HTMLTopLineColorized=0
+HTMLTableTopLineColor=6737151
+SaveGamesFCH=0
+FCHdir=
+FCHnames=
+[Data]
+LastPGNEPDindex=1
+FirstGameDate=2018.09.05
+FirstGameTime=15:53:38
+Country=Denmark
+Site=LAPTOP-7JOUQEPD
+Hardware=Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 7,8 GB Memory
+OS=Windows 10 Home Home Edition (Build 9200) 64 bit
+Website=
+E-Mail=
+ArenaVersion=Arena 3.5.1
+LastGameDate=2018.09.05
+LastGameTime=15:58:11
+[PairingResults]
+Romild {Human} ------ VICEcs=1
+[Participants]
+Engine1=VICEcs
+Engine2=Romild {Human}

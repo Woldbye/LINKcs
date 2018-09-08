@@ -1,0 +1,6 @@
+C:\Users\Romild\Documents\VICEcs\VICEcs\obj\Debug\VICEcs.csprojResolveAssemblyReference.cache
+C:\Users\Romild\Documents\VICEcs\VICEcs\obj\Debug\VICEcs.csproj.CoreCompileInputs.cache
+C:\Users\Romild\Documents\VICEcs\VICEcs\bin\Debug\VICEcs.exe
+C:\Users\Romild\Documents\VICEcs\VICEcs\bin\Debug\VICEcs.pdb
+C:\Users\Romild\Documents\VICEcs\VICEcs\obj\Debug\VICEcs.exe
+C:\Users\Romild\Documents\VICEcs\VICEcs\obj\Debug\VICEcs.pdb

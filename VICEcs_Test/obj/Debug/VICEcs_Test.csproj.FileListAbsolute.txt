@@ -1,0 +1,10 @@
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\bin\Debug\VICEcs_Test.dll
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\bin\Debug\VICEcs_Test.pdb
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\bin\Debug\nunit.framework.dll
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\bin\Debug\nunit.framework.xml
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\obj\Debug\VICEcs_Test.csprojResolveAssemblyReference.cache
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\obj\Debug\VICEcs_Test.csproj.CoreCompileInputs.cache
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\obj\Debug\VICEcs_Test.dll
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\obj\Debug\VICEcs_Test.pdb
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\bin\Debug\VICEcs.exe
+C:\Users\Romild\Documents\VICEcs\VICEcs_Test\bin\Debug\VICEcs.pdb

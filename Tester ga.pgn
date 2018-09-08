@@ -1,0 +1,21 @@
+[Event "Computer chess game"]
+[Site "LAPTOP-7JOUQEPD"]
+[Date "2018.08.21"]
+[Round "?"]
+[White "Romild"]
+[Black "AnMon 5.75"]
+[Result "*"]
+[BlackElo "2200"]
+[ECO "B95"]
+[Opening "Sicilian"]
+[Time "01:43:46"]
+[Variation "Najdorf, 6...e6"]
+[WhiteElo "2400"]
+[TimeControl "300"]
+[Termination "unterminated"]
+[PlyCount "12"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 *
+
