@@ -135,7 +135,7 @@ namespace VICEcs.ChessObjects.Search {
             // If black king on a castling square
             if ((board.KingSq[(int) Colour.BLACK] == (int) Square.G8) || 
                 (board.KingSq[(int) Colour.BLACK] == (int) Square.C8)) {
-                if (KingBitMask.CountBitsSetInArea(board.Pawns[(int) Colour.BLACK], board.KingSq[(int) Colour.BLACK]) >= 3) {
+                if (KingSafety.CountBitsSetInArea(board.Pawns[(int) Colour.BLACK], board.KingSq[(int) Colour.BLACK]) >= 3) {
                     score -= Evaluate.PAWNS_PROTECTING_KING_VAL;
                 }
             }
@@ -150,7 +150,7 @@ namespace VICEcs.ChessObjects.Search {
             // If white king on a castling square
             if ((board.KingSq[(int) Colour.WHITE] == (int) Square.G1) || 
                 (board.KingSq[(int) Colour.WHITE] == (int) Square.C1)) {
-                if (KingBitMask.CountBitsSetInArea(board.Pawns[(int) Colour.WHITE], board.KingSq[(int) Colour.WHITE]) >= 3) {
+                if (KingSafety.CountBitsSetInArea(board.Pawns[(int) Colour.WHITE], board.KingSq[(int) Colour.WHITE]) >= 3) {
                     score += Evaluate.PAWNS_PROTECTING_KING_VAL;
                 }
             }

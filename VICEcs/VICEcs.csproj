@@ -53,7 +53,7 @@
     <Compile Include="ChessObjects\Move\MoveGen.cs" />
     <Compile Include="ChessObjects\Move\MoveList.cs" />
     <Compile Include="ChessObjects\Search\EvalBitMask.cs" />
-    <Compile Include="ChessObjects\Search\KingBitMask.cs" />
+    <Compile Include="ChessObjects\Search\KingSafety.cs" />
     <Compile Include="ChessObjects\Search\MvvLva.cs" />
     <Compile Include="ChessObjects\Search\Evaluate.cs" />
     <Compile Include="ChessObjects\Search\PvTable.cs" />

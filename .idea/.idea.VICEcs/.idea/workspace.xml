@@ -4,7 +4,21 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ac02bb0-078a-4409-95f5-9a104a07c9d1" name="Default" comment="" />
+    <list default="true" id="5ac02bb0-078a-4409-95f5-9a104a07c9d1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VICEcs/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.VICEcs/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VICEcs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.VICEcs/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/ChessObjects/Search/Evaluate.cs" afterPath="$PROJECT_DIR$/VICEcs/ChessObjects/Search/Evaluate.cs" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingBitMask.cs" afterPath="$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingSafety.cs" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/GUI/UCI.cs" afterPath="$PROJECT_DIR$/VICEcs/GUI/UCI.cs" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/Initializer.cs" afterPath="$PROJECT_DIR$/VICEcs/Initializer.cs" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/Program.cs" afterPath="$PROJECT_DIR$/VICEcs/Program.cs" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/VICEcs.csproj" afterPath="$PROJECT_DIR$/VICEcs/VICEcs.csproj" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/bin/Release/VICEcs.exe" afterPath="$PROJECT_DIR$/VICEcs/bin/Release/VICEcs.exe" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/bin/Release/VICEcs.pdb" afterPath="$PROJECT_DIR$/VICEcs/bin/Release/VICEcs.pdb" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/obj/Release/VICEcs.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/VICEcs/obj/Release/VICEcs.csproj.CoreCompileInputs.cache" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/obj/Release/VICEcs.exe" afterPath="$PROJECT_DIR$/VICEcs/obj/Release/VICEcs.exe" />
+      <change beforePath="$PROJECT_DIR$/VICEcs/obj/Release/VICEcs.pdb" afterPath="$PROJECT_DIR$/VICEcs/obj/Release/VICEcs.pdb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,416 +40,273 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Fens.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Fens.cs">
+      <file leaf-file-name="MvvLva.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/MvvLva.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="40">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <marker date="1535832317786" expanded="true" signature="34:2313" ph="{...}" />
-                <marker date="1535832317786" expanded="true" signature="40:156" ph="/// Holds various important FEN position, used for testing or other operations. ... " />
-                <marker date="1535832317786" expanded="true" signature="186:2311" ph="{...}" />
+                <marker date="1532982111980" expanded="false" signature="6:44" ph="..." />
+                <marker date="1532982111980" expanded="true" signature="83:1254" ph="{...}" />
+                <marker date="1532982111980" expanded="true" signature="89:251" ph="/// Small class that helps implement a MvvLva (Most valueable victim, least valuable attacker) ... " />
+                <marker date="1532982111980" expanded="true" signature="283:1252" ph="{...}" />
+                <marker date="1532982111980" expanded="true" signature="293:391" ph="/// holds the scores for capturing the indexed piece. ... " />
+                <marker date="1532982111980" expanded="true" signature="531:690" ph="/// Indexed by MvvLvaScores[Victim, Attacker]. The higher the score, ... " />
+                <marker date="1532982111980" expanded="true" signature="764:842" ph="/// Initializes the MvvLva array. ... " />
+                <marker date="1532982111980" expanded="true" signature="883:1245" ph="{...}" />
+                <marker date="1532982111980" expanded="true" signature="973:1235" ph="{...}" />
+                <marker date="1532982111980" expanded="true" signature="1061:1221" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Variables.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Variables.cs">
+      <file leaf-file-name="PvTable.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/PvTable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="292">
+              <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
-                <marker date="1536403404114" expanded="false" signature="6:51" ph="..." />
-                <marker date="1536403404114" expanded="true" signature="87:1191" ph="{...}" />
-                <marker date="1536403404114" expanded="true" signature="123:1189" ph="{...}" />
-                <marker date="1536403404114" expanded="true" signature="314:417" ph="/// Maximum number of moves expected for a given position. ... " />
-                <marker date="1536403404114" expanded="true" signature="486:583" ph="/// MAXIMUM depth the program will try to search to. ... " />
-                <marker date="1536403404114" expanded="true" signature="642:840" ph="/// Holds information regarding the build of the current solution. ... " />
-                <marker date="1536403404114" expanded="true" signature="941:1126" ph="/// Stopwatch to help keep track of time during the program. ... " />
+                <marker date="1534809888061" expanded="false" signature="6:104" ph="..." />
+                <marker date="1534809888061" expanded="true" signature="140:2856" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="146:625" ph="///     SEE VIDEO 51 IF ISSUES. ... " />
+                <marker date="1534809888061" expanded="true" signature="651:2854" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="789:874" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="934:1642" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="1128:1419" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="1184:1307" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="1547:1605" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="1687:1861" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="1742:1851" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="1923:2213" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="2223:2447" ph="/// Probes the parameter board for the PvMove is such exist. If ... " />
+                <marker date="1534809888061" expanded="true" signature="2493:2847" ph="{...}" />
+                <marker date="1534809888061" expanded="true" signature="2725:2798" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Board.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Board/Board.cs">
+      <file leaf-file-name="S_PvEntry.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/S_PvEntry.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
-                <marker date="1536403668407" expanded="false" signature="7:57" ph="..." />
-                <marker date="1536403668407" expanded="true" signature="95:4519" ph="{...}" />
-                <marker date="1536403668407" expanded="true" signature="120:4512" ph="{...}" />
-                <marker date="1536403668407" expanded="true" signature="254:415" ph="/* big pieces is every piece except pawns, indexed by enum color. ... */" />
-                <marker date="1536403668407" expanded="true" signature="924:1079" ph="/* maj pieces is rooks and queens, indexed by enum color. ... */" />
-                <marker date="1536403668407" expanded="true" signature="1121:1278" ph="/* Minor pieces is bishops and knights indexed by enum color. ... */" />
-                <marker date="1536403668407" expanded="true" signature="1320:1451" ph="/* 00000000 01000000 00000000 00000000 00000000 00000000 00000000 00000000 ... */" />
-                <marker date="1536403668407" expanded="true" signature="1499:1653" ph="/* the amount of each pieces on the board indexed by enum Piece. ... */" />
-                <marker date="1536403668407" expanded="true" signature="1731:1907" ph="/* holds the position of every piece on the board. ... */" />
-                <marker date="1536403668407" expanded="true" signature="2180:2853" ph="/// Implements a HISTORY-HEURISTIC for the search. ... " />
-                <marker date="1536403668407" expanded="true" signature="2900:3199" ph="/// Implements a KILLER-HEURISTIC for the search by ... " />
-                <marker date="1536403668407" expanded="true" signature="3293:4093" ph="{...}" />
-                <marker date="1536403668407" expanded="true" signature="4130:4319" ph="{...}" />
-                <marker date="1536403668407" expanded="true" signature="4253:4309" ph="{...}" />
-                <marker date="1536403668407" expanded="true" signature="4411:4498" ph="{...}" />
+                <marker date="1531823038186" expanded="true" signature="34:127" ph="{...}" />
+                <marker date="1531823038186" expanded="true" signature="64:125" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EvalBitMask.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/EvalBitMask.cs">
+      <file leaf-file-name="S_SearchInfo.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/S_SearchInfo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="28" />
               <folding>
-                <marker date="1536335826993" expanded="false" signature="6:120" ph="..." />
-                <marker date="1536335826993" expanded="true" signature="159:4365" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="165:338" ph="///     Small class for holding and initializing pawn evaluation bitmasks, ... " />
-                <marker date="1536335826993" expanded="true" signature="375:4363" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="730:3232" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="808:927" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="1040:1641" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="1692:3222" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="1960:2647" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="2361:2468" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="2522:2629" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="2756:2863" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="2900:3007" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="3292:3358" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="3418:3484" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="3541:3604" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="3614:3867" ph="///     Getter for the filesMask array. ... " />
-                <marker date="1536335826993" expanded="true" signature="3920:3980" ph="{...}" />
-                <marker date="1536335826993" expanded="true" signature="3991:4244" ph="///     Getter for the filesMask array. ... " />
-                <marker date="1536335826993" expanded="true" signature="4297:4357" ph="{...}" />
+                <marker date="1533053312432" expanded="true" signature="37:463" ph="{...}" />
+                <marker date="1533053312432" expanded="true" signature="70:461" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakeMove.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Move/MakeMove.cs">
+      <file leaf-file-name="UCI.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/GUI/UCI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="50" selection-end-column="12" />
+            <state relative-caret-position="305">
+              <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
-                <marker date="1536404044324" expanded="false" signature="6:308" ph="..." />
-                <marker date="1536404044324" expanded="true" signature="345:19279" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="373:19277" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="383:626" ph="/* All fields are 15, except for the rooks and kings. ... */" />
-                <marker date="1536404044324" expanded="true" signature="678:1310" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="1479:1547" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="1607:1685" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="1743:1800" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="1859:1950" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="1968:2205" ph="/// Clears the piece from the board on the parameter square. ... " />
-                <marker date="1536404044324" expanded="true" signature="2271:4165" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="2935:3205" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="3024:3090" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="3520:3751" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="3633:3737" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="4183:4481" ph="/// Adds the piece to the board on the parameter square. ... " />
-                <marker date="1536404044324" expanded="true" signature="4554:5988" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="5193:5463" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="5282:5348" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="5734:5922" ph="/* holds the position of every piece on the board. ... */" />
-                <marker date="1536404044324" expanded="true" signature="6006:6425" ph="/// Moves the piece at the from square to the to square ... " />
-                <marker date="1536404044324" expanded="true" signature="6500:8530" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="7391:7933" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="8059:8314" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="8174:8300" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="8540:8621" ph="/* Possibly not static ... */" />
-                <marker date="1536404044324" expanded="true" signature="8630:8938" ph="/// Makes the input move on the board, if the move is legal. ... " />
-                <marker date="1536404044324" expanded="true" signature="9005:14514" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="9913:10170" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="9963:10071" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="10225:11030" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="10310:11016" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="11083:11141" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="12062:12387" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="12519:13356" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="12667:13338" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="12721:13010" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="13510:13872" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="13512:13600" ph="/* If there is a promoted piece ... */" />
-                <marker date="1536404044324" expanded="true" signature="13919:14026" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="14387:14466" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="14532:14775" ph="/// Evaluates whether the input move, exist from the current board position. ... " />
-                <marker date="1536404044324" expanded="true" signature="14843:15330" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="14997:15293" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="15094:15143" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="15227:15279" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="15395:19271" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="16087:16136" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="16600:16649" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="16916:17206" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="16972:17093" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="17261:18022" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="17346:18008" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="18183:18247" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="18354:18522" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="18635:19199" ph="{...}" />
-                <marker date="1536404044324" expanded="true" signature="18637:18725" ph="/* If there is a promoted piece ... */" />
+                <marker date="1537003700214" expanded="false" signature="6:163" ph="..." />
+                <marker date="1537003700214" expanded="true" signature="186:9960" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="192:395" ph="/// Universal Chess Interface. ... " />
+                <marker date="1537003700214" expanded="true" signature="417:9958" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="427:491" ph="/// Max input size. ... " />
+                <marker date="1537003700214" expanded="true" signature="581:2268" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="795:2258" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="1001:1050" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="1218:1315" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="1388:1456" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="1533:1617" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="1684:1756" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="1825:1909" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="1977:2036" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="2105:2165" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="2198:2244" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="2286:2433" ph="/* should read &quot;position fen&quot; ... */" />
+                <marker date="1537003700214" expanded="true" signature="2496:5217" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="2795:2875" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="3040:3489" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="3161:3296" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="3644:5147" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="3885:5133" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="4033:4185" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="4229:4403" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="4443:4631" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="4705:4899" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="4952:5006" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="5227:5524" ph="/* should read &quot;go depth int wtime int btime int binc int winc int movetime int movestogo int ... */" />
+                <marker date="1537003700214" expanded="true" signature="5604:8820" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="5885:6078" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="6228:6421" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="6532:6726" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="6837:7031" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="7108:7308" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="7384:7582" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="7696:7891" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="7925:8033" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="8162:8430" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="8461:8581" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="8830:9375" ph="/// Receives a string line and the index to the start of a integer number. ... " />
+                <marker date="1537003700214" expanded="true" signature="9435:9736" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="9535:9692" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="9598:9678" ph="{...}" />
+                <marker date="1537003700214" expanded="true" signature="9786:9952" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardOperations.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Board/BoardOperations.cs">
+      <file leaf-file-name="VICEcs.csproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/VICEcs.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6897">
-              <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KingSafety.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingSafety.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
-                <marker date="1536404044286" expanded="false" signature="6:143" ph="..." />
-                <marker date="1536404044286" expanded="true" signature="181:19643" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="187:277" ph="/// Class for maintaining and updating the gameboard. ... " />
-                <marker date="1536404044286" expanded="true" signature="318:19641" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="328:451" ph="/// Resets all board data structures. ... " />
-                <marker date="1536404044286" expanded="true" signature="503:1861" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="667:733" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="784:876" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="926:1225" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="959:1169" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="1276:1332" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="1724:1785" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="1879:2131" ph="/// Parses the input FEN string onto the board. ... " />
-                <marker date="1536404044286" expanded="true" signature="2192:6795" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="2509:4851" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="2647:4467" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="4513:4808" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="4692:4761" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="5114:5987" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="5201:5255" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="5294:5937" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="6190:6666" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="6232:6463" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="6805:6950" ph="/// Prints the input board to console. ... " />
-                <marker date="1536404044286" expanded="true" signature="7002:8195" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="7183:7553" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="7316:7501" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="8213:8487" ph="/// Updates the remaining board data structures, in regard to the &quot;main&quot; board. ... " />
-                <marker date="1536404044286" expanded="true" signature="8548:9827" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="8603:9817" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="8751:9803" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="8870:8944" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="8996:9070" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="9122:9196" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="9453:9527" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="9605:9785" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="9837:10303" ph="/// Validator for the board state. Ensures all board data structures are inorder. ... " />
-                <marker date="1536404044286" expanded="true" signature="10355:17670" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="10730:10790" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="10924:11514" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="11014:11500" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="11130:11482" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="11615:12352" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="11871:11939" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="11989:12057" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="12107:12175" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="12223:12338" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="12439:12617" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="12505:12603" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="12700:13587" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="12812:13056" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="12882:13038" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="13091:13306" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="13161:13288" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="13430:13555" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="13657:14773" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="13699:14759" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="13923:13993" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="14028:14098" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="14243:14448" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="14572:14737" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="14961:15237" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="15423:15522" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="15709:15807" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="15994:16092" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="16180:16288" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="16354:16457" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="16554:17005" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="16674:16765" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="16900:16991" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="17044:17104" ph="/* Check kingsquares ... */" />
-                <marker date="1536404044286" expanded="true" signature="17180:17263" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="17366:17622" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="17732:19635" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="18045:18113" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="18202:18270" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="18347:18415" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="18492:18560" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="18635:18779" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="18822:18976" ph="{...}" />
-                <marker date="1536404044286" expanded="true" signature="19148:19309" ph="{...}" />
+                <marker date="1537000911846" expanded="false" signature="6:64" ph="..." />
+                <marker date="1537000911846" expanded="true" signature="103:3057" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="140:3055" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="150:352" ph="/// Counts the amount of bits set in an area in relation to the king castling. ... " />
+                <marker date="1537000911846" expanded="true" signature="426:3049" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="496:3039" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="599:800" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="726:782" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="885:1086" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="1012:1068" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="1219:1420" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="1346:1402" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="1505:1706" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="1632:1688" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="1839:2040" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="1966:2022" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="2125:2326" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="2252:2308" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="2459:2660" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="2586:2642" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="2745:2946" ph="{...}" />
+                <marker date="1537000911846" expanded="true" signature="2872:2928" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bitboard.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/Tools/Bitboard.cs">
+      <file leaf-file-name="Initializer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/Initializer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="68" column="6" lean-forward="false" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <marker date="1535616092568" expanded="false" signature="6:70" ph="..." />
-                <marker date="1535616092568" expanded="true" signature="95:4170" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="130:4168" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="373:726" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="745:916" ph="/// Forward scans an ulong to locate the first set bit. ... " />
-                <marker date="1535616092568" expanded="true" signature="970:1088" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="1106:1284" ph="/// Pops the least significant bit in the parameter ulong ... " />
-                <marker date="1535616092568" expanded="true" signature="1338:1507" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="1517:1672" ph="/// Sets the indexed bit. ... " />
-                <marker date="1535616092568" expanded="true" signature="1738:1820" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="1830:1987" ph="/// Clears the indexed bit. ... " />
-                <marker date="1535616092568" expanded="true" signature="2055:2138" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="2156:2379" ph="/// Counts the amount of set bit in the parameter unsigned long. ... " />
-                <marker date="1535616092568" expanded="true" signature="2429:2602" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="2489:2565" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="2658:2897" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="2731:2855" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="2788:2841" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="2965:3793" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="3180:3749" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="3311:3697" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="3537:3605" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="3852:4162" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="3903:4119" ph="{...}" />
-                <marker date="1535616092568" expanded="true" signature="4041:4105" ph="{...}" />
+                <marker date="1537000799732" expanded="true" signature="6:110" ph="..." />
+                <marker date="1537000799732" expanded="true" signature="129:469" ph="{...}" />
+                <marker date="1537000799732" expanded="true" signature="167:467" ph="{...}" />
+                <marker date="1537000799732" expanded="true" signature="206:453" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Evaluate.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/Evaluate.cs">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VICEcs/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
-                <marker date="1536403328838" expanded="false" signature="7:91" ph="..." />
-                <marker date="1536403328838" expanded="true" signature="130:15878" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="136:252" ph="///     Evaluate calculates the integer value of a given position on the board. ... " />
-                <marker date="1536403328838" expanded="true" signature="286:15876" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="1130:1184" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="1195:1441" ph="///     Each of the 64 squared piece tables indicate the value of a given piece, ... " />
-                <marker date="1536403328838" expanded="true" signature="1492:1820" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="1875:2199" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="2254:2580" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="2633:2953" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="2964:3051" ph="/// Encourage king to move towards center. ... " />
-                <marker date="1536403328838" expanded="true" signature="3105:3521" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="3532:3599" ph="/// Encourage castling ... " />
-                <marker date="1536403328838" expanded="true" signature="3657:4072" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="4083:4387" ph="///     Evaluates the input board position. ... " />
-                <marker date="1536403328838" expanded="true" signature="4442:7388" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="4490:4531" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="5425:5545" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="5904:6128" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="6030:6114" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="6222:6342" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="6681:6905" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="6807:6891" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="7015:7081" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="7134:7200" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="7264:7309" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="7398:7587" ph="///     Evaluates whether the input posisition is a draw material-wise. ... " />
-                <marker date="1536403328838" expanded="true" signature="7647:10888" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="7702:7747" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="7976:9309" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="8100:8356" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="8243:8303" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="8465:8705" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="8627:8687" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="8941:9262" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="9184:9244" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="9414:10852" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="9556:9879" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="9751:9811" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="9988:10384" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="10306:10366" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="10493:10838" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="10760:10820" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="10898:11112" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
-                <marker date="1536403328838" expanded="true" signature="11235:11715" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="11352:11705" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="11725:11919" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
-                <marker date="1536403328838" expanded="true" signature="12020:13878" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="12172:13868" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="12682:13263" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="12808:12892" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="13022:13245" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="13395:13479" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="13609:13836" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="13888:14093" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
-                <marker date="1536403328838" expanded="true" signature="14190:15870" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="14371:15860" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="14926:15307" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="15059:15147" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="15378:15726" ph="{...}" />
-                <marker date="1536403328838" expanded="true" signature="15473:15566" ph="{...}" />
+                <marker date="1537004414610" expanded="false" signature="7:260" ph="..." />
+                <marker date="1537004414610" expanded="true" signature="279:472" ph="{...}" />
+                <marker date="1537004414610" expanded="true" signature="308:470" ph="{...}" />
+                <marker date="1537004414610" expanded="true" signature="357:464" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Data.cs">
+      <file leaf-file-name="Search.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/Search.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="140" column="1" lean-forward="false" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+            <state relative-caret-position="179">
+              <caret line="303" column="12" lean-forward="false" selection-start-line="303" selection-start-column="12" selection-end-line="303" selection-end-column="12" />
               <folding>
-                <marker date="1536403442800" expanded="true" signature="82:5722" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="88:189" ph="/// Auxiliary class for holding data regarding Piece validation. ... " />
-                <marker date="1536403442800" expanded="true" signature="219:5720" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="278:389" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="447:558" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="622:731" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="797:906" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="964:1075" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="1094:1161" ph="/// For black indexing ... " />
-                <marker date="1536403442800" expanded="true" signature="1215:1567" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="1586:1722" ph="/// Swaps the color of the indexed piece. ... " />
-                <marker date="1536403442800" expanded="true" signature="1775:1942" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="1953:2211" ph="/// PCE_CHAR holds the char representive of the indexed piece. ... " />
-                <marker date="1536403442800" expanded="true" signature="2261:2360" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="2379:2558" ph="/// SIDE_CHAR holds the char representive of the indexed side. ... " />
-                <marker date="1536403442800" expanded="true" signature="2643:2821" ph="/// RANK_CHAR holds the char represntive of the index rank. ... " />
-                <marker date="1536403442800" expanded="true" signature="2923:3027" ph="/// FILE_CHAR holds the char represntive of the index File. ... " />
-                <marker date="1536403442800" expanded="true" signature="3129:3310" ph="/// Returns true if the index piece is a big piece. ... " />
-                <marker date="1536403442800" expanded="true" signature="3468:3647" ph="/// Returns true if the index piece is a major piece. ... " />
-                <marker date="1536403442800" expanded="true" signature="3809:3988" ph="/// Returns true if the index piece is a minor piece. ... " />
-                <marker date="1536403442800" expanded="true" signature="4152:4320" ph="/// Holds the integer value of each indexed piece. ... " />
-                <marker date="1536403442800" expanded="true" signature="4462:4556" ph="/// Returns the colour type of the indexed piece. ... " />
-                <marker date="1536403442800" expanded="true" signature="4613:4840" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="4859:4957" ph="/// If the piece is a sliding piece (rook, queen etc) ... " />
-                <marker date="1536403442800" expanded="true" signature="5159:5216" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="5278:5337" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="5397:5454" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="5519:5582" ph="{...}" />
-                <marker date="1536403442800" expanded="true" signature="5649:5714" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enumerators.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Enumerators.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-209">
-              <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-              <folding>
-                <marker date="1523785343822" expanded="true" signature="34:1897" ph="{...}" />
-                <marker date="1523785343822" expanded="true" signature="128:293" ph="{...}" />
-                <marker date="1523785343822" expanded="true" signature="351:504" ph="{...}" />
-                <marker date="1523785343822" expanded="true" signature="564:717" ph="{...}" />
-                <marker date="1523785343822" expanded="true" signature="770:820" ph="{...}" />
-                <marker date="1523785343822" expanded="true" signature="880:1709" ph="{...}" />
-                <marker date="1523785343822" expanded="true" signature="1817:1895" ph="{...}" />
+                <marker date="1537003228224" expanded="false" signature="6:155" ph="..." />
+                <marker date="1537003228224" expanded="true" signature="194:12027" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="220:12025" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="381:490" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="551:862" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="699:751" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="880:1196" ph="/// Finds the best move in the moveList looping from the parameter index ... " />
+                <marker date="1537003228224" expanded="true" signature="1258:1872" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="1431:1640" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="1529:1626" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="1890:2057" ph="/// Evaluates whether the board position is a repetition ... " />
+                <marker date="1537003228224" expanded="true" signature="2093:2510" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="2237:2461" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="2391:2443" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="2520:2653" ph="///  Clears the search to prepare for new search. ... " />
+                <marker date="1537003228224" expanded="true" signature="2703:3291" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="2746:2895" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="2811:2881" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="2937:3085" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="3001:3071" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="3390:7709" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="3494:3567" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="3623:3673" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="3843:3885" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="3940:4004" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="4208:4426" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="4887:5176" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="4942:5162" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="5035:5144" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="5239:7060" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="5398:5447" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="5673:5758" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="5882:7046" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="6046:6592" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="6088:6191" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="6337:6533" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="6763:7028" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="7152:7556" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="7249:7473" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="7593:7660" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="7727:7839" ph="/// Search all capture positions, to help avoid the Horizon effect. ... " />
+                <marker date="1537003228224" expanded="true" signature="7915:10365" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="8021:8071" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="8241:8283" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="8415:8460" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="8493:8537" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="8570:8616" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="9059:10200" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="9235:9284" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="9478:9527" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="9635:10186" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="9799:10039" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="9841:9944" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="10249:10316" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="10433:12019" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="10710:11871" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="10853:10899" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="11453:11591" ph="{...}" />
+                <marker date="1537003228224" expanded="true" signature="11662:11857" ph="/* if (info.Fh != 0) { // Cannot divide by zero. ... */" />
               </folding>
             </state>
           </provider>
@@ -477,8 +348,10 @@
       <find>stop</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TestProject1/Tests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Fens.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VICEcs/GUI/UCI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/Search.cs" root0="FORCE_HIGHLIGHTING" />
@@ -501,7 +374,7 @@
     <setting file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Move/MoveOperations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VICEcs/Tools/Bitboard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/MvvLva.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingBitMask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingSafety.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/EvalBitMask.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VICEcs/Tools/Conversion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Move/MoveGen.cs" root0="FORCE_HIGHLIGHTING" />
@@ -519,7 +392,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Move/MoveList.cs" />
         <option value="$PROJECT_DIR$/VICEcs/Testing/validate.cs" />
         <option value="$PROJECT_DIR$/VICEcs/Tools/Validators.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Move/Makemove.cs" />
@@ -550,10 +422,8 @@
         <option value="$PROJECT_DIR$/VICEcs/VICEcs.csproj" />
         <option value="$PROJECT_DIR$/VICEcs/Tools/UCI.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/PvTable.cs" />
-        <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/Search.cs" />
         <option value="$PROJECT_DIR$/VICEcs/Tools/BitMask.cs" />
         <option value="$PROJECT_DIR$/VICEcs/Tools/EvalBitMask.cs" />
-        <option value="$PROJECT_DIR$/VICEcs/GUI/UCI.cs" />
         <option value="$PROJECT_DIR$/VICEcs/Tools/Misc.cs" />
         <option value="$PROJECT_DIR$/VICEcs/Tools/FlagsHelper.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Move/MoveGen.cs" />
@@ -561,15 +431,18 @@
         <option value="$PROJECT_DIR$/VICEcs/ChessDefinitions/Fens.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/EvalBitMask.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingProtectionBitMask.cs" />
-        <option value="$PROJECT_DIR$/VICEcs/Initializer.cs" />
-        <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingBitMask.cs" />
-        <option value="$PROJECT_DIR$/VICEcs/Program.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/Evaluate.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessDefinitions/Data.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessDefinitions/Variables.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Board/Board.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Move/MakeMove.cs" />
         <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Board/BoardOperations.cs" />
+        <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingBitMask.cs" />
+        <option value="$PROJECT_DIR$/VICEcs/Initializer.cs" />
+        <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingSafety.cs" />
+        <option value="$PROJECT_DIR$/VICEcs/ChessObjects/Search/Search.cs" />
+        <option value="$PROJECT_DIR$/VICEcs/GUI/UCI.cs" />
+        <option value="$PROJECT_DIR$/VICEcs/Program.cs" />
       </list>
     </option>
   </component>
@@ -616,19 +489,6 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="VICEcs (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="VICEcs" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="VICEcs (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="VICEcs" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="VICEcs (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="VICEcs" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="ChessDefinitions" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
@@ -649,7 +509,7 @@
               <item name="VICEcs (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="VICEcs" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="ChessObjects" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Move" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Search" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -661,19 +521,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="VICEcs (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="VICEcs" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="VICEcs (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="VICEcs" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Testing" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="VICEcs (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="VICEcs" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tools" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="VICEcs_Test" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -789,12 +642,14 @@
       <workItem from="1535830521899" duration="2750000" />
       <workItem from="1535989568690" duration="1159000" />
       <workItem from="1536334417872" duration="41000" />
-      <workItem from="1536334812072" duration="7576000" />
+      <workItem from="1536334812072" duration="8175000" />
+      <workItem from="1536854930532" duration="861000" />
+      <workItem from="1536999277118" duration="4684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356793000" />
+    <option name="totallyTimeSpent" value="362937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,14 +668,15 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.007518797" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27822122" sideWeight="0.25778732" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70581526" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20752566" sideWeight="0.74221265" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2690992" sideWeight="0.74221265" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.49785176" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16111708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16541353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31356898" sideWeight="0.47207305" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.062298603" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.037628278" sideWeight="0.6482277" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15413533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -830,7 +686,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118586086" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4082098" sideWeight="0.6482277" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -921,13 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject1/Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject1/Tests.cs" />
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Move/S_Move.cs" />
     <entry file="file://$PROJECT_DIR$/VICEcs/Testing/validate.cs" />
     <entry file="file://$PROJECT_DIR$/VICEcs/Properties/AssemblyInfo.cs">
@@ -973,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/S_PvEntry.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Move/S_Move.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1002,13 +844,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/MoveSearch.cs" />
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/S_SearchInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/Microsoft.Common.CurrentVersion.targets">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77995">
@@ -1016,38 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/GUI/UCI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="51" column="32" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/Tools/Misc.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/MvvLva.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/PvTable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/Search.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1063,13 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs_Test/PerftTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1091,21 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2242">
           <caret line="118" column="43" lean-forward="false" selection-start-line="118" selection-start-column="38" selection-end-line="118" selection-end-column="43" />
-          <folding>
-            <marker date="1525512793115" expanded="true" signature="92:3498" ph="{...}" />
-            <marker date="1525512793115" expanded="true" signature="139:1887" ph="{...}" />
-            <marker date="1525512793115" expanded="true" signature="169:1877" ph="{...}" />
-            <marker date="1525512793115" expanded="true" signature="1905:2092" ph="/// Validates whether the input sq is actually a valid 120 based square. ... " />
-            <marker date="1525512793115" expanded="true" signature="2138:2189" ph="{...}" />
-            <marker date="1525512793115" expanded="true" signature="2199:2402" ph="/// Validates whether the input side, is actually a valid chess side (black or white). ... " />
-            <marker date="1525512793115" expanded="true" signature="2450:2540" ph="{...}" />
-            <marker date="1525512793115" expanded="true" signature="2550:2727" ph="/// Validates whether the input file or rank is valid. ... " />
-            <marker date="1525512793115" expanded="true" signature="2787:2855" ph="{...}" />
-            <marker date="1525512793115" expanded="true" signature="2865:3045" ph="/// Validates whether the input piece is a valid piece or empty. ... " />
-            <marker date="1525512793115" expanded="true" signature="3098:3181" ph="{...}" />
-            <marker date="1525512793115" expanded="true" signature="3191:3362" ph="/// Validates whether the input piece is a valid piece. ... " />
-            <marker date="1525512793115" expanded="true" signature="3410:3492" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,144 +898,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <marker date="1531413711296" expanded="false" signature="6:123" ph="..." />
-            <marker date="1531413711296" expanded="true" signature="155:4020" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="188:4018" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="493:940" ph="/// Validates whether the parameter square is attacked by input side. ... " />
-            <marker date="1531413711296" expanded="true" signature="1018:4012" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="1424:1581" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="1515:1567" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="1708:1760" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="1870:2216" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="2009:2058" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="2150:2202" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="2305:2881" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="2450:2867" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="2504:2757" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="2635:2703" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="2971:3549" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="3116:3535" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="3170:3425" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="3303:3371" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="3631:3975" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="3770:3819" ph="{...}" />
-            <marker date="1531413711296" expanded="true" signature="3909:3961" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/Initializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <marker date="1536337205249" expanded="false" signature="6:110" ph="..." />
-            <marker date="1536337205249" expanded="true" signature="129:792" ph="{...}" />
-            <marker date="1536337205249" expanded="true" signature="167:790" ph="{...}" />
-            <marker date="1536337205249" expanded="true" signature="206:524" ph="{...}" />
-            <marker date="1536337205249" expanded="true" signature="542:652" ph="/// Sets the IsDebug variable to true, if compiled in DEBUG-mode. ... " />
-            <marker date="1536337205249" expanded="true" signature="735:784" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingBitMask.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1226">
-          <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
-          <folding>
-            <marker date="1536339508187" expanded="true" signature="6:64" ph="..." />
-            <marker date="1536339508187" expanded="true" signature="103:7677" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="141:7675" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="151:300" ph="/* 0 is white king side castle ... */" />
-            <marker date="1536339508187" expanded="true" signature="398:3752" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="412:461" ph="/* White king side ... */" />
-            <marker date="1536339508187" expanded="true" signature="1253:1303" ph="/* White queen side ... */" />
-            <marker date="1536339508187" expanded="true" signature="2084:2133" ph="/* Black king side ... */" />
-            <marker date="1536339508187" expanded="true" signature="2925:2975" ph="/* Black queen side ... */" />
-            <marker date="1536339508187" expanded="true" signature="3770:4014" ph="/// Counts the amount of bits set in an area in relation to the king castling. ... " />
-            <marker date="1536339508187" expanded="true" signature="4086:6693" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="4156:6683" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="4259:4458" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="4384:4440" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="4543:4742" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="4668:4724" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="4875:5074" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="5000:5056" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="5159:5358" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="5284:5340" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="5491:5690" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="5616:5672" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="5775:5974" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="5900:5956" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="6107:6306" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="6232:6288" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="6391:6590" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="6516:6572" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="6711:7128" ph="/// Receieves one of the four squares corresponding with the square of the king after ... " />
-            <marker date="1536339508187" expanded="true" signature="7173:7669" ph="{...}" />
-            <marker date="1536339508187" expanded="true" signature="7203:7659" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="95" lean-forward="false" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
-          <folding>
-            <marker date="1536340462949" expanded="false" signature="7:260" ph="..." />
-            <marker date="1536340462949" expanded="true" signature="279:1455" ph="{...}" />
-            <marker date="1536340462949" expanded="true" signature="308:1453" ph="{...}" />
-            <marker date="1536340462949" expanded="true" signature="357:1447" ph="{...}" />
-            <marker date="1536340462949" expanded="true" signature="406:497" ph="/* UCI uci = new UCI(); ... */" />
-            <marker date="1536340462949" expanded="true" signature="982:1437" ph="/* Console.WriteLine(&quot;Square H4 int {0}&quot;, Conversion.getSq120ToSq64((int) Square.H4)); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/Tools/Bitboard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="68" column="6" lean-forward="false" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-          <folding>
-            <marker date="1535616092568" expanded="false" signature="6:70" ph="..." />
-            <marker date="1535616092568" expanded="true" signature="95:4170" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="130:4168" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="373:726" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="745:916" ph="/// Forward scans an ulong to locate the first set bit. ... " />
-            <marker date="1535616092568" expanded="true" signature="970:1088" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="1106:1284" ph="/// Pops the least significant bit in the parameter ulong ... " />
-            <marker date="1535616092568" expanded="true" signature="1338:1507" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="1517:1672" ph="/// Sets the indexed bit. ... " />
-            <marker date="1535616092568" expanded="true" signature="1738:1820" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="1830:1987" ph="/// Clears the indexed bit. ... " />
-            <marker date="1535616092568" expanded="true" signature="2055:2138" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="2156:2379" ph="/// Counts the amount of set bit in the parameter unsigned long. ... " />
-            <marker date="1535616092568" expanded="true" signature="2429:2602" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="2489:2565" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="2658:2897" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="2731:2855" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="2788:2841" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="2965:3793" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="3180:3749" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="3311:3697" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="3537:3605" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="3852:4162" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="3903:4119" ph="{...}" />
-            <marker date="1535616092568" expanded="true" signature="4041:4105" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/EvalBitMask.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="19">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <marker date="1536335826993" expanded="false" signature="6:120" ph="..." />
-            <marker date="1536335826993" expanded="true" signature="159:4365" ph="{...}" />
             <marker date="1536335826993" expanded="true" signature="165:338" ph="///     Small class for holding and initializing pawn evaluation bitmasks, ... " />
             <marker date="1536335826993" expanded="true" signature="375:4363" ph="{...}" />
             <marker date="1536335826993" expanded="true" signature="730:3232" ph="{...}" />
@@ -1273,82 +929,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/Evaluate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1536403328838" expanded="false" signature="7:91" ph="..." />
-            <marker date="1536403328838" expanded="true" signature="130:15878" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="136:252" ph="///     Evaluate calculates the integer value of a given position on the board. ... " />
-            <marker date="1536403328838" expanded="true" signature="286:15876" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="1130:1184" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="1195:1441" ph="///     Each of the 64 squared piece tables indicate the value of a given piece, ... " />
-            <marker date="1536403328838" expanded="true" signature="1492:1820" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="1875:2199" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="2254:2580" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="2633:2953" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="2964:3051" ph="/// Encourage king to move towards center. ... " />
-            <marker date="1536403328838" expanded="true" signature="3105:3521" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="3532:3599" ph="/// Encourage castling ... " />
-            <marker date="1536403328838" expanded="true" signature="3657:4072" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="4083:4387" ph="///     Evaluates the input board position. ... " />
-            <marker date="1536403328838" expanded="true" signature="4442:7388" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="4490:4531" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="5425:5545" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="5904:6128" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="6030:6114" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="6222:6342" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="6681:6905" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="6807:6891" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="7015:7081" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="7134:7200" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="7264:7309" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="7398:7587" ph="///     Evaluates whether the input posisition is a draw material-wise. ... " />
-            <marker date="1536403328838" expanded="true" signature="7647:10888" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="7702:7747" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="7976:9309" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="8100:8356" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="8243:8303" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="8465:8705" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="8627:8687" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="8941:9262" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="9184:9244" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="9414:10852" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="9556:9879" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="9751:9811" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="9988:10384" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="10306:10366" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="10493:10838" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="10760:10820" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="10898:11112" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
-            <marker date="1536403328838" expanded="true" signature="11235:11715" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="11352:11705" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="11725:11919" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
-            <marker date="1536403328838" expanded="true" signature="12020:13878" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="12172:13868" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="12682:13263" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="12808:12892" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="13022:13245" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="13395:13479" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="13609:13836" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="13888:14093" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
-            <marker date="1536403328838" expanded="true" signature="14190:15870" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="14371:15860" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="14926:15307" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="15059:15147" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="15378:15726" ph="{...}" />
-            <marker date="1536403328838" expanded="true" signature="15473:15566" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Data.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="2660">
           <caret line="140" column="1" lean-forward="false" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
           <folding>
-            <marker date="1536403442800" expanded="true" signature="82:5722" ph="{...}" />
             <marker date="1536403442800" expanded="true" signature="88:189" ph="/// Auxiliary class for holding data regarding Piece validation. ... " />
             <marker date="1536403442800" expanded="true" signature="219:5720" ph="{...}" />
             <marker date="1536403442800" expanded="true" signature="278:389" ph="{...}" />
@@ -1383,10 +968,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Enumerators.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
+        <state relative-caret-position="437">
           <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
-            <marker date="1523785343822" expanded="true" signature="34:1897" ph="{...}" />
             <marker date="1523785343822" expanded="true" signature="128:293" ph="{...}" />
             <marker date="1523785343822" expanded="true" signature="351:504" ph="{...}" />
             <marker date="1523785343822" expanded="true" signature="564:717" ph="{...}" />
@@ -1397,33 +981,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Fens.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <marker date="1535832317786" expanded="true" signature="34:2313" ph="{...}" />
-            <marker date="1535832317786" expanded="true" signature="40:156" ph="/// Holds various important FEN position, used for testing or other operations. ... " />
-            <marker date="1535832317786" expanded="true" signature="186:2311" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/VICEcs.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Variables.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <marker date="1536403404114" expanded="false" signature="6:51" ph="..." />
-            <marker date="1536403404114" expanded="true" signature="87:1191" ph="{...}" />
             <marker date="1536403404114" expanded="true" signature="123:1189" ph="{...}" />
             <marker date="1536403404114" expanded="true" signature="314:417" ph="/// Maximum number of moves expected for a given position. ... " />
             <marker date="1536403404114" expanded="true" signature="486:583" ph="/// MAXIMUM depth the program will try to search to. ... " />
@@ -1433,34 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Board/Board.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <marker date="1536403668407" expanded="false" signature="7:57" ph="..." />
-            <marker date="1536403668407" expanded="true" signature="95:4519" ph="{...}" />
-            <marker date="1536403668407" expanded="true" signature="120:4512" ph="{...}" />
-            <marker date="1536403668407" expanded="true" signature="254:415" ph="/* big pieces is every piece except pawns, indexed by enum color. ... */" />
-            <marker date="1536403668407" expanded="true" signature="924:1079" ph="/* maj pieces is rooks and queens, indexed by enum color. ... */" />
-            <marker date="1536403668407" expanded="true" signature="1121:1278" ph="/* Minor pieces is bishops and knights indexed by enum color. ... */" />
-            <marker date="1536403668407" expanded="true" signature="1320:1451" ph="/* 00000000 01000000 00000000 00000000 00000000 00000000 00000000 00000000 ... */" />
-            <marker date="1536403668407" expanded="true" signature="1499:1653" ph="/* the amount of each pieces on the board indexed by enum Piece. ... */" />
-            <marker date="1536403668407" expanded="true" signature="1731:1907" ph="/* holds the position of every piece on the board. ... */" />
-            <marker date="1536403668407" expanded="true" signature="2180:2853" ph="/// Implements a HISTORY-HEURISTIC for the search. ... " />
-            <marker date="1536403668407" expanded="true" signature="2900:3199" ph="/// Implements a KILLER-HEURISTIC for the search by ... " />
-            <marker date="1536403668407" expanded="true" signature="3293:4093" ph="{...}" />
-            <marker date="1536403668407" expanded="true" signature="4130:4319" ph="{...}" />
-            <marker date="1536403668407" expanded="true" signature="4253:4309" ph="{...}" />
-            <marker date="1536403668407" expanded="true" signature="4411:4498" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Board/BoardOperations.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6897">
-          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+        <state relative-caret-position="1254">
+          <caret line="71" column="12" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
           <folding>
             <marker date="1536404044286" expanded="false" signature="6:143" ph="..." />
             <marker date="1536404044286" expanded="true" signature="181:19643" ph="{...}" />
@@ -1549,11 +1088,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Move/MakeMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="50" selection-end-column="12" />
+        <state relative-caret-position="760">
+          <caret line="49" column="37" lean-forward="false" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
           <folding>
             <marker date="1536404044324" expanded="false" signature="6:308" ph="..." />
-            <marker date="1536404044324" expanded="true" signature="345:19279" ph="{...}" />
             <marker date="1536404044324" expanded="true" signature="373:19277" ph="{...}" />
             <marker date="1536404044324" expanded="true" signature="383:626" ph="/* All fields are 15, except for the rooks and kings. ... */" />
             <marker date="1536404044324" expanded="true" signature="678:1310" ph="{...}" />
@@ -1609,6 +1147,427 @@
             <marker date="1536404044324" expanded="true" signature="18354:18522" ph="{...}" />
             <marker date="1536404044324" expanded="true" signature="18635:19199" ph="{...}" />
             <marker date="1536404044324" expanded="true" signature="18637:18725" ph="/* If there is a promoted piece ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/Tools/Bitboard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <marker date="1535616092568" expanded="false" signature="6:70" ph="..." />
+            <marker date="1535616092568" expanded="true" signature="95:4170" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="130:4168" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="373:726" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="745:916" ph="/// Forward scans an ulong to locate the first set bit. ... " />
+            <marker date="1535616092568" expanded="true" signature="970:1088" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="1106:1284" ph="/// Pops the least significant bit in the parameter ulong ... " />
+            <marker date="1535616092568" expanded="true" signature="1338:1507" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="1517:1672" ph="/// Sets the indexed bit. ... " />
+            <marker date="1535616092568" expanded="true" signature="1738:1820" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="1830:1987" ph="/// Clears the indexed bit. ... " />
+            <marker date="1535616092568" expanded="true" signature="2055:2138" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="2156:2379" ph="/// Counts the amount of set bit in the parameter unsigned long. ... " />
+            <marker date="1535616092568" expanded="true" signature="2429:2602" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="2489:2565" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="2658:2897" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="2731:2855" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="2788:2841" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="2965:3793" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="3180:3749" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="3311:3697" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="3537:3605" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="3852:4162" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="3903:4119" ph="{...}" />
+            <marker date="1535616092568" expanded="true" signature="4041:4105" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Board/Board.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <marker date="1536403668407" expanded="false" signature="7:57" ph="..." />
+            <marker date="1536403668407" expanded="true" signature="95:4519" ph="{...}" />
+            <marker date="1536403668407" expanded="true" signature="120:4512" ph="{...}" />
+            <marker date="1536403668407" expanded="true" signature="254:415" ph="/* big pieces is every piece except pawns, indexed by enum color. ... */" />
+            <marker date="1536403668407" expanded="true" signature="924:1079" ph="/* maj pieces is rooks and queens, indexed by enum color. ... */" />
+            <marker date="1536403668407" expanded="true" signature="1121:1278" ph="/* Minor pieces is bishops and knights indexed by enum color. ... */" />
+            <marker date="1536403668407" expanded="true" signature="1320:1451" ph="/* 00000000 01000000 00000000 00000000 00000000 00000000 00000000 00000000 ... */" />
+            <marker date="1536403668407" expanded="true" signature="1499:1653" ph="/* the amount of each pieces on the board indexed by enum Piece. ... */" />
+            <marker date="1536403668407" expanded="true" signature="1731:1907" ph="/* holds the position of every piece on the board. ... */" />
+            <marker date="1536403668407" expanded="true" signature="2180:2853" ph="/// Implements a HISTORY-HEURISTIC for the search. ... " />
+            <marker date="1536403668407" expanded="true" signature="2900:3199" ph="/// Implements a KILLER-HEURISTIC for the search by ... " />
+            <marker date="1536403668407" expanded="true" signature="3293:4093" ph="{...}" />
+            <marker date="1536403668407" expanded="true" signature="4130:4319" ph="{...}" />
+            <marker date="1536403668407" expanded="true" signature="4253:4309" ph="{...}" />
+            <marker date="1536403668407" expanded="true" signature="4411:4498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessDefinitions/Fens.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <marker date="1535832317786" expanded="true" signature="34:2313" ph="{...}" />
+            <marker date="1535832317786" expanded="true" signature="40:156" ph="/// Holds various important FEN position, used for testing or other operations. ... " />
+            <marker date="1535832317786" expanded="true" signature="186:2311" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs_Test/PerftTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding>
+            <marker date="1533046405854" expanded="false" signature="6:296" ph="..." />
+            <marker date="1533046405854" expanded="true" signature="320:3525" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="326:456" ph="/// This class test possible move combinations, ... " />
+            <marker date="1533046405854" expanded="true" signature="503:3523" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="549:1388" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="747:796" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="954:1016" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="1037:1122" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="1537:1674" ph="/// Tests up to the input depth.  ... " />
+            <marker date="1533046405854" expanded="true" signature="1819:2850" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="1881:2840" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="2081:2286" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="2123:2268" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="2332:2436" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="2925:3283" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="3037:3213" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="3083:3129" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="3352:3517" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="3379:3507" ph="{...}" />
+            <marker date="1533046405854" expanded="true" signature="3421:3467" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/Evaluate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5822">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <marker date="1537000911873" expanded="false" signature="7:91" ph="..." />
+            <marker date="1537000911873" expanded="true" signature="130:15876" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="136:252" ph="///     Evaluate calculates the integer value of a given position on the board. ... " />
+            <marker date="1537000911873" expanded="true" signature="286:15874" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="1130:1184" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="1195:1441" ph="///     Each of the 64 squared piece tables indicate the value of a given piece, ... " />
+            <marker date="1537000911873" expanded="true" signature="1492:1820" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="1875:2199" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="2254:2580" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="2633:2953" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="2964:3051" ph="/// Encourage king to move towards center. ... " />
+            <marker date="1537000911873" expanded="true" signature="3105:3521" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="3532:3599" ph="/// Encourage castling ... " />
+            <marker date="1537000911873" expanded="true" signature="3657:4072" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="4083:4387" ph="///     Evaluates the input board position. ... " />
+            <marker date="1537000911873" expanded="true" signature="4442:7386" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="4490:4531" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="5425:5545" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="5904:6127" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="6029:6113" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="6221:6341" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="6680:6903" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="6805:6889" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="7013:7079" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="7132:7198" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="7262:7307" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="7396:7585" ph="///     Evaluates whether the input posisition is a draw material-wise. ... " />
+            <marker date="1537000911873" expanded="true" signature="7645:10886" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="7700:7745" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="7974:9307" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="8098:8354" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="8241:8301" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="8463:8703" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="8625:8685" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="8939:9260" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="9182:9242" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="9412:10850" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="9554:9877" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="9749:9809" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="9986:10382" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="10304:10364" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="10491:10836" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="10758:10818" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="10896:11110" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
+            <marker date="1537000911873" expanded="true" signature="11233:11713" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="11350:11703" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="11723:11917" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
+            <marker date="1537000911873" expanded="true" signature="12018:13876" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="12170:13866" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="12680:13261" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="12806:12890" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="13020:13243" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="13393:13477" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="13607:13834" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="13886:14091" ph="///     Decrements or increments the parameter score, in regard to the pieces position on the board. ... " />
+            <marker date="1537000911873" expanded="true" signature="14188:15868" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="14369:15858" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="14924:15305" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="15057:15145" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="15376:15724" ph="{...}" />
+            <marker date="1537000911873" expanded="true" signature="15471:15564" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/Initializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1537000799732" expanded="true" signature="6:110" ph="..." />
+            <marker date="1537000799732" expanded="true" signature="129:469" ph="{...}" />
+            <marker date="1537000799732" expanded="true" signature="167:467" ph="{...}" />
+            <marker date="1537000799732" expanded="true" signature="206:453" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/KingSafety.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1537000911846" expanded="false" signature="6:64" ph="..." />
+            <marker date="1537000911846" expanded="true" signature="103:3057" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="140:3055" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="150:352" ph="/// Counts the amount of bits set in an area in relation to the king castling. ... " />
+            <marker date="1537000911846" expanded="true" signature="426:3049" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="496:3039" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="599:800" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="726:782" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="885:1086" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="1012:1068" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="1219:1420" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="1346:1402" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="1505:1706" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="1632:1688" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="1839:2040" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="1966:2022" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="2125:2326" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="2252:2308" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="2459:2660" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="2586:2642" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="2745:2946" ph="{...}" />
+            <marker date="1537000911846" expanded="true" signature="2872:2928" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/MvvLva.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1532982111980" expanded="false" signature="6:44" ph="..." />
+            <marker date="1532982111980" expanded="true" signature="83:1254" ph="{...}" />
+            <marker date="1532982111980" expanded="true" signature="89:251" ph="/// Small class that helps implement a MvvLva (Most valueable victim, least valuable attacker) ... " />
+            <marker date="1532982111980" expanded="true" signature="283:1252" ph="{...}" />
+            <marker date="1532982111980" expanded="true" signature="293:391" ph="/// holds the scores for capturing the indexed piece. ... " />
+            <marker date="1532982111980" expanded="true" signature="531:690" ph="/// Indexed by MvvLvaScores[Victim, Attacker]. The higher the score, ... " />
+            <marker date="1532982111980" expanded="true" signature="764:842" ph="/// Initializes the MvvLva array. ... " />
+            <marker date="1532982111980" expanded="true" signature="883:1245" ph="{...}" />
+            <marker date="1532982111980" expanded="true" signature="973:1235" ph="{...}" />
+            <marker date="1532982111980" expanded="true" signature="1061:1221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/PvTable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <marker date="1534809888061" expanded="false" signature="6:104" ph="..." />
+            <marker date="1534809888061" expanded="true" signature="140:2856" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="146:625" ph="///     SEE VIDEO 51 IF ISSUES. ... " />
+            <marker date="1534809888061" expanded="true" signature="651:2854" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="789:874" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="934:1642" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="1128:1419" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="1184:1307" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="1547:1605" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="1687:1861" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="1742:1851" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="1923:2213" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="2223:2447" ph="/// Probes the parameter board for the PvMove is such exist. If ... " />
+            <marker date="1534809888061" expanded="true" signature="2493:2847" ph="{...}" />
+            <marker date="1534809888061" expanded="true" signature="2725:2798" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/S_PvEntry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1531823038186" expanded="true" signature="34:127" ph="{...}" />
+            <marker date="1531823038186" expanded="true" signature="64:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/S_SearchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <marker date="1533053312432" expanded="true" signature="37:463" ph="{...}" />
+            <marker date="1533053312432" expanded="true" signature="70:461" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/VICEcs.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/ChessObjects/Search/Search.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="303" column="12" lean-forward="false" selection-start-line="303" selection-start-column="12" selection-end-line="303" selection-end-column="12" />
+          <folding>
+            <marker date="1537003228224" expanded="false" signature="6:155" ph="..." />
+            <marker date="1537003228224" expanded="true" signature="194:12027" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="220:12025" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="381:490" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="551:862" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="699:751" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="880:1196" ph="/// Finds the best move in the moveList looping from the parameter index ... " />
+            <marker date="1537003228224" expanded="true" signature="1258:1872" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="1431:1640" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="1529:1626" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="1890:2057" ph="/// Evaluates whether the board position is a repetition ... " />
+            <marker date="1537003228224" expanded="true" signature="2093:2510" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="2237:2461" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="2391:2443" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="2520:2653" ph="///  Clears the search to prepare for new search. ... " />
+            <marker date="1537003228224" expanded="true" signature="2703:3291" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="2746:2895" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="2811:2881" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="2937:3085" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="3001:3071" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="3390:7709" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="3494:3567" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="3623:3673" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="3843:3885" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="3940:4004" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="4208:4426" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="4887:5176" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="4942:5162" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="5035:5144" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="5239:7060" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="5398:5447" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="5673:5758" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="5882:7046" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="6046:6592" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="6088:6191" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="6337:6533" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="6763:7028" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="7152:7556" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="7249:7473" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="7593:7660" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="7727:7839" ph="/// Search all capture positions, to help avoid the Horizon effect. ... " />
+            <marker date="1537003228224" expanded="true" signature="7915:10365" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="8021:8071" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="8241:8283" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="8415:8460" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="8493:8537" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="8570:8616" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="9059:10200" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="9235:9284" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="9478:9527" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="9635:10186" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="9799:10039" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="9841:9944" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="10249:10316" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="10433:12019" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="10710:11871" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="10853:10899" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="11453:11591" ph="{...}" />
+            <marker date="1537003228224" expanded="true" signature="11662:11857" ph="/* if (info.Fh != 0) { // Cannot divide by zero. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/GUI/UCI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <marker date="1537003700214" expanded="false" signature="6:163" ph="..." />
+            <marker date="1537003700214" expanded="true" signature="186:9960" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="192:395" ph="/// Universal Chess Interface. ... " />
+            <marker date="1537003700214" expanded="true" signature="417:9958" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="427:491" ph="/// Max input size. ... " />
+            <marker date="1537003700214" expanded="true" signature="581:2268" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="795:2258" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="1001:1050" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="1218:1315" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="1388:1456" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="1533:1617" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="1684:1756" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="1825:1909" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="1977:2036" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="2105:2165" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="2198:2244" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="2286:2433" ph="/* should read &quot;position fen&quot; ... */" />
+            <marker date="1537003700214" expanded="true" signature="2496:5217" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="2795:2875" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="3040:3489" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="3161:3296" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="3644:5147" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="3885:5133" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="4033:4185" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="4229:4403" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="4443:4631" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="4705:4899" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="4952:5006" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="5227:5524" ph="/* should read &quot;go depth int wtime int btime int binc int winc int movetime int movestogo int ... */" />
+            <marker date="1537003700214" expanded="true" signature="5604:8820" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="5885:6078" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="6228:6421" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="6532:6726" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="6837:7031" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="7108:7308" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="7384:7582" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="7696:7891" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="7925:8033" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="8162:8430" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="8461:8581" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="8830:9375" ph="/// Receives a string line and the index to the start of a integer number. ... " />
+            <marker date="1537003700214" expanded="true" signature="9435:9736" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="9535:9692" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="9598:9678" ph="{...}" />
+            <marker date="1537003700214" expanded="true" signature="9786:9952" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VICEcs/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <marker date="1537004414610" expanded="false" signature="7:260" ph="..." />
+            <marker date="1537004414610" expanded="true" signature="279:472" ph="{...}" />
+            <marker date="1537004414610" expanded="true" signature="308:470" ph="{...}" />
+            <marker date="1537004414610" expanded="true" signature="357:464" ph="{...}" />
           </folding>
         </state>
       </provider>

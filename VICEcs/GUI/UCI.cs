@@ -22,7 +22,6 @@ namespace VICEcs.GUI {
 
             Board board = new Board();
             S_SearchInfo info = new S_SearchInfo();
-
             // Infinite loop, will only break once user quits.
             while (true) {
                 string

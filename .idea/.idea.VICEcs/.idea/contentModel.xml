@@ -28,7 +28,7 @@
           <e p="Search" t="Include">
             <e p="EvalBitMask.cs" t="Include" />
             <e p="Evaluate.cs" t="Include" />
-            <e p="KingBitMask.cs" t="Include" />
+            <e p="KingSafety.cs" t="Include" />
             <e p="MvvLva.cs" t="Include" />
             <e p="PvTable.cs" t="Include" />
             <e p="S_PvEntry.cs" t="Include" />
