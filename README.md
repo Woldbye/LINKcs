@@ -13,5 +13,5 @@ and a couple others.
 Currently, the program can be operated by any GUI that implements the UCI-protocol. I have used Arena for testing,
 but any GUI upholding the protocol should do.
 
-As of 13/09/2018, the engine isn't entirely complete, but it compiles can be played.
+As of 13/09/2018, the engine isn't entirely complete, but it compiles and can be played.
 Possible future improvements include but are not limited to, implementing a polyglot opening book and optimizing compiling.
